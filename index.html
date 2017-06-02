@@ -1,0 +1,852 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Decima aplicación móvil</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="visor/engine1/style.css" />
+<script type="text/javascript" src="visor/engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="visor/engine2/style.css" />
+	<script type="text/javascript" src="visor/engine2/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+ 
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/tema-app10.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+  <style type="text/css">
+  re {
+	text-align: justify;
+}
+  .re {
+	text-align: justify;
+}
+  .we {
+	font-weight: bold;
+}
+  RE {
+	text-align: justify;
+}
+  .re {
+	text-align: justify;
+}
+  .re {
+	text-align: justify;
+}
+  .re {
+	text-align: justify;
+}
+  .re {
+	text-align: justify;
+}
+  .re {
+	text-align: justify;
+}
+  .we {
+	text-align: justify;
+}
+  </style>
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js"></script>
+  <script src="phonegap.js"></script>
+  <script type="text/javascript">
+
+
+
+  
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+</head>
+
+<body class="we" onLoad="MM_preloadImages('imagenes/tel.jpg','imagenes/telefonia.jpg','imagenes/libro5.1.jpg','imagenes/libro4.1.jpg','imagenes/libro6.1.jpg','imagenes/libro7.1.jpg','imagenes/libro8.1.jpg','imagenes/libro9.1.jpg','imagenes/LIBRO10.1.jpg','imagenes/libro11.1.jpg','imagenes/15.jpg','imagenes/20.jpg','imagenes/17.jpg','imagenes/7.png','imagenes/13.png','imagenes/5.png','imagenes/14.png','imagenes/15.png','imagenes/16.png')">
+
+       <div data-role="page" id="Principal" data-theme="a">   
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h3>CARRERAS A ESTUDIAR</h3>
+   </div>
+   <div data-role="main" class="ui-content">
+     </div>
+     <div>
+     <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+        <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>INGENIERIA EN MECATRONICA</h2>
+        </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+         <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>INGENIERIA EN SISTEMAS COMPUTACIONALES</h2>
+         </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+         <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>DISEÑO GRAFICO</h2>
+         </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+         <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>HECHO POR</h2>
+         </a>
+       </li>  
+       </ul>
+       </div>
+       <br>
+     <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="visor/data1/images/18.jpg" alt="" title="" id="wows1_0"/></li>
+		<li><img src="visor/data1/images/1.png" alt="" title="" id="wows1_1"/></li>
+		<li><img src="visor/data1/images/22.jpg" alt="" title="" id="wows1_2"/></li>
+		<li><img src="visor/data1/images/14.png" alt="" title="" id="wows1_3"/></li>
+		<li><img src="visor/data1/images/6.png" alt="" title="" id="wows1_4"/></li>
+		<li><img src="visor/data1/images/12.png" alt="" title="" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="visor/data1/images/2.jpg" alt="http://wowslider.com/" title="" id="wows1_6"/></a></li>
+		<li><img src="visor/data1/images/20.jpg" alt="" title="" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title=""><span><img src="visor/data1/tooltips/18.jpg" alt=""/>1</span></a>
+		<a href="#" title=""><span><img src="visor/data1/tooltips/1.png" alt=""/>2</span></a>
+		<a href="#" title=""><span><img src="visor/data1/tooltips/22.jpg" alt=""/>3</span></a>
+		<a href="#" title=""><span><img src="visor/data1/tooltips/14.png" alt=""/>4</span></a>
+		<a href="#" title=""><span><img src="visor/data1/tooltips/6.png" alt=""/>5</span></a>
+		<a href="#" title=""><span><img src="visor/data1/tooltips/12.png" alt=""/>6</span></a>
+		<a href="#" title=""><span><img src="visor/data1/tooltips/2.jpg" alt=""/>7</span></a>
+		<a href="#" title=""><span><img src="visor/data1/tooltips/20.jpg" alt=""/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+
+       
+       <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <div>
+          <img src="res/android/mdpi.png" width="46" height="46">
+         </div>
+         <div>
+           <h4>GUIA DE CARRERAS</h4>
+           <h4>Daniela Padilla Cuautle</h4>
+         </div>
+        </div>
+        </div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+            <h4>INGENIERIA EN MECATRONICA</h4>
+          </div>
+         <div data-role="content" align="center">
+          <div>
+            <h4 class="re">Como Ingeniero Mecatrónico desarrollarás e integrarás sistemas automatizados que involucren tecnologías de varios campos de ingeniería. Serás especialista en componentes mecánicos, eléctricos, electrónicos y computacionales siempre tratando de alcanzar un desarrollo sustentable, en un marco de valores y ética profesional.</h4>
+            </div>
+            </div>
+
+            
+            <div>
+              <p>
+              <center>
+              <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32','','imagenes/20.jpg',1)"><img src="imagenes/1.png" width="311" height="199" id="Image32"></a>
+              </center>
+              </p>
+              </div>
+            
+            
+     <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+      <h3><center>
+        <h3>¿QUE ES MECATRONICA?</h3>
+      </center></h3>
+      <div>
+      <br>
+     </div>
+     <div>
+     <center> 
+       <h4>&nbsp;</h4>
+       <p align="JUSTIFY">El termino "mecatrónica" fue acuñado en Japón a principios de los 80&rsquo;s y comenzó a ser usado en Europa y USA un poco después.</p>
+       <p align="JUSTIFY">"<strong>El espíritu de la mecatrónica rechaza dividir a la ingeniería en disciplinas</strong> <strong>separadas"</strong>. Pero una definición aproximada seria la utilizada por la comunidad europea: "mecatrónica es la integración cinegética de la ingeniería mecánica con la electrónica y con el control de computadores inteligentes para el diseño y la manufactura de productos y procesos".</p>
+       <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image33','','imagenes/17.jpg',1)"><center><img src="imagenes/22.jpg" width="207" height="99" id="Image33"></center></a></p>
+       <p>&nbsp;</p>
+     </center>
+     </div>
+     </div>
+     </div>
+     
+   <div>
+     <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">   
+  <li class="ui-first-child ui-last-child">
+         <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>¿PARA QUÉ SIRVE?</h2>
+         </a> 
+       </li>
+        <li class="ui-first-child ui-last-child">
+         <a href="http://cmas.siu.buap.mx/portal_pprd/wb/EDUCATIVA/ingenieria_en_mecatronica_1" target="_self" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>INGENIERIA EN MECATRÓNICA (BUAP)</h2>
+         </a> 
+       </li>
+       </ul>
+       </div>   
+             
+
+  <div>
+  <center>
+           <p>&nbsp;</p>
+           <h2>Campo de trabajo</h2>
+           <br>
+           <p>Existe una gran variedad de oportunidades de trabajo debido a que los avances tecnológicos en automatización son muy rápidos y se requiere de profesionales de alto nivel para enfrentar y desarrollar nuevas tecnologías. El Ingeniero Mecatrónico será requerido por: el sector privado industrial (eléctrico, electrónico, automotriz, textil, metal-mecánico, siderúrgico, petroquímico); el sector de servicios (redes, telefónico y telecomunicaciones); el sector público (asesoría, diseño, innovación, producción, operación y mantenimiento de sistemas eléctricos y electromecánicos); centros de investigación e instituciones de enseñanza superior.</p>
+           <div>
+           <p><center>
+             <img src="imagenes/15.png" width="187" height="160">
+           </center></p>
+           </div>
+           <p>&nbsp;</p>
+           </div>
+            <p>&nbsp;</p>
+            
+            
+    <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+      <h3><center>
+        <h3>INSTITUTO TECNOLOGICO SUPERIOR DE ATLIXCO</h3>
+      </center></h3>
+      <div>
+      <br>
+     </div>
+     <div>
+     <center>
+       <a href="http://www.itsatlixco.edu.mx/tec/mecatronica.php"><img src="imagenes/24.png" width="189" height="141"></a>
+     </center>
+     </div>
+     </div>
+     </div>
+           
+   <div data-role="main" class="ui-content" align="center">
+ <div style="width: 40%; font-size: xx-small;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+    <a href="http://www.upaep.mx/index.php/index.php?option=com_content&view=article&id=208&Itemid=167" target="_self" data-role="button" >
+     <h5>MAS</h5>
+    </a>
+    </li>
+    </ul>
+    </div>
+    </div>   
+     <div data-role="main" class="ui-content" align="center">
+ <div style="width: 40%; font-size: xx-small;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+    <a href="https://www.youtube.com/watch?v=1W4b_lEBWJQ" target="_self" data-role="button" >
+     <h5>MAS</h5>
+    </a>
+    </li>
+    </ul>
+    </div>
+    </div>   
+
+            
+          <div data-role="footer" data-theme="a" data-position="fixed">
+            <h4>GUIA DE CARRERAS</h4>
+            <h4> Daniela Padilla Cuautle</h4>
+            </div>
+           </div>
+           </div>
+         
+          
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+             <h4>INGENIERIA EN SISTEMAS</h4>
+            </div>
+            <div data-role="content" align="center">
+             <div>
+               <p>&nbsp;</p>
+               <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image01','','imagenes/tel.jpg',1)"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image34','','imagenes/5.png',1)"><center><img src="imagenes/6.png" width="163" height="160" id="Image34"></center></a>
+               <div>
+                 <p>&nbsp;</p>
+                 <p class="re"><strong>Si te interesa la computación y sus aplicaciones en la vida cotidiana y el trabajo, así como diseñar y desarrollar aplicaciones que integren software, hardware y telecomunicaciones, desarrolla tus habilidades estudiando la Ingeniería en Sistemas Computacionales</strong></p>
+                 <div>
+                 <p class="re"><center><img src="imagenes/3.jpg" width="257" height="108"></center></p>
+                 </div>
+                 </p>
+                 </div>
+                 
+
+ <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+      <h3><center>
+        <h3>INGENIERIA EN SISTEMAS </h3>
+      </center></h3>
+      <div>
+      <br>
+     </div>
+     <div>
+     <center>
+       <a href="http://www.unitec.mx/ingenieria-en-sistemas-computacionales/"><img src="imagenes/7.jpg" width="193" height="138"></a>
+     </center>
+     </div>
+     </div>
+     <p>&nbsp;</p>
+             </div>
+  
+   <div>
+     <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">   
+  <li class="ui-first-child ui-last-child">
+         <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>¿QUÉ ES?</h2>
+         </a> 
+       </li>
+        <li class="ui-first-child ui-last-child">
+         <a href="http://admision.itesm.mx/isc" target="_self" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>TECNOLOGICO DE MONTERREY</h2>
+         </a> 
+       </li>
+       </ul>
+       </div>   
+             <p>&nbsp;</p>
+             <div>
+             <p><center><img src="imagenes/8.png" width="169" height="143"></center></p>
+             </div>
+             <p>¿EN DÓNDE PODRÁS TRABAJAR?</p>
+             <div>
+               <li class="re"><strong>Ingeniería de software. Desarrollas desde grandes sistemas computacionales hasta nuevos algoritmos.</strong></li>
+               <li class="re"><strong>Análisis y diseño de sistemas de información.</strong></li>
+               <li class="re"><strong>Desarrollo de aplicaciones innovadoras.</strong></li>
+               <li class="re"><strong>Administración de proyectos y servicios de tecnologías de información.</strong></li>
+             </div>
+             <div>
+               <li class="re"><strong>Consultoría especializada en soluciones de software y tecnologías de información.</strong></li>
+               <li class="re"><strong>Investigación en temas de nuevas tecnologías.</strong></li>
+               <li class="re"><strong>Empresa propia. Emprendes negocios de base tecnológica.</strong></li>
+             </div>
+             <p>&nbsp;</p>     
+  
+   <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+      <h3><center>
+        <h3>COMPETENCIAS</h3>
+      </center></h3>
+      <div>
+      <br>
+     </div>
+     <div>
+       <ul class="re">
+         <li>
+           <center mm_ta_background="re">
+             <p><strong>Desarrollar software siguiendo un enfoque de ingeniería con altos estándares de calidad, comunicando eficientemente sus propuestas y resultados en forma oral y escrita en inglés y en español.</strong></p>
+             </center>
+           </li>
+         <li>
+           <center mm_ta_background="re">
+             <p><strong> Desarrollar aplicaciones utilizando tecnología de vanguardia que resuelvan problemas en la ciencia, la industria, la educación y el entretenimiento, con una visión internacional de la sociedad y sus requerimientos culturales.</strong></p>
+             </center>
+           </li>
+         <li>
+           <center mm_ta_background="re">
+             <p><strong> Proponer e implantar la infraestructura computacional necesaria en una organización para que sus procesos puedan llevarse a cabo de manera adecuada.
+               </strong></p>
+             </center>
+           </li>
+         <li>
+           <center mm_ta_background="re">
+             <p><strong>Analizar, diseñar e implantar aplicaciones de Tecnologías de Información, entendiendo y resolviendo en forma innovadora y creativa problemas de diferentes empresas, instituciones u organismos, mediante el uso eficiente de Tecnologías de Información.
+               </strong></p>
+           </center>
+           </li>
+         <li>
+           <center mm_ta_background="re">
+             <p><strong>Administrar proyectos de Tecnologías de Información, trabajando eficientemente en equipos multidisciplinarios y respetando a las personas y sus diferentes opiniones.
+               Mantenerte actualizado ante la rápida dinámica del desarrollo tecnológico del área, reconociendo la necesidad de  comprometerse con su desarrollo personal y profesional.</strong>
+             </p>
+             <div>
+             <p><center><img src="imagenes/2.jpg" alt="" width="295" height="154"></center></p>
+             </div>
+           </center>
+         </li>
+       </ul>
+       </div>
+     </div>
+     <p>&nbsp;</p>
+             </div>
+             
+   <div data-role="main" class="ui-content" align="center">
+ <div style="width: 40%; font-size: xx-small;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+    <a href="http://www.udlap.mx/ofertaacademica/planestudios.aspx?cveCarrera=lis" target="_self" data-role="button" >
+     <h5>MAS</h5>
+    </a>
+    </li>
+    </ul>
+    </div>
+    </div>
+  
+              </div>
+              </div>
+             <div data-role="footer" data-theme="a" data-position="fixed">
+               <h4>GUIA DE CARRERAS</h4>
+               <h4> Daniela Padilla Cuautle</h4>
+               </div>
+                </div>
+                </div>
+                
+             
+             
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+             <h3>DISEÑO GRAFICO</h3>
+           </div>
+            <div data-role="content" align="center">
+             <div>
+             </div>
+             </div>
+
+               <div>
+               <p>&nbsp;</p>
+               <div>
+               <p><center><img src="imagenes/16.png" width="207" height="159"></center></p>
+               </div>
+               <p class="re"><strong>El diseño gráfico es una disciplina y profesión que tiene el fin de idear y proyectar mensajes a través de la imagen. Al diseño gráfico se lo llama también "de la comunicación visual" y esto es así puesto que entraña una íntima relación con la comunicación como ciencia teórica y disciplina gráfica.
+               </strong>
+               <div>
+               <p class="re"><center><img src="imagenes/10.png" width="280" height="86"></center>
+               </div>                             
+               </div>
+  
+      <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+      <h3><center>
+        <h3>CONCEPTOS</h3>
+      </center></h3>
+      <div>
+      <br>
+     </div>
+     <div>
+     <center>
+       <p>&nbsp;</p>
+       <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image36','','imagenes/14.png',1)"><img src="imagenes/12.png" width="159" height="176" id="Image36"></a></p>
+       <p class="re"><strong>1. Convencionalidad</strong><br>
+         El signo debe configurarse conforme alguna combinación de los códigos gráficos culturalmente vigentes. La idea de «nuevos lenguajes gráficos» resulta absurda: si un lenguaje es nuevo, no se entiende.</p>
+       <p class="re"><strong>2. Ocurrencia</strong><br>
+         La ocurrencia compensa la convencionalidad al darle relevancia al mensaje. Pero el grado de atipicidad necesario no siempre es el máximo posible. Cada caso requiere un grado de ocurrencia diferente.</p>
+       <p class="re"><strong>3. Eficacia</strong><br>
+         El signo ha de cumplir, como mínimo, todas las funciones para las cuales ha sido creado. Valores, como por ejemplo la estética, no pueden subordinar la eficacia del comunicado gráfico sino, por el contrario, potenciarla.</p>
+       <p class="re"><strong>4. Propiedad</strong><br>
+         El signo debe inscribirse en el paradigma identitario de su emisor. No basta con la firma: el comunicado mismo debe identificar al emisor. La identidad no consiste en hablar del emisor sino en hablar como él.</p>
+       <p class="re"><strong>5. Respeto</strong><br>
+         Tal como sucede con el emisor, la gráfica debe ajustarse y respetar los códigos del receptor. Se habla para él, para que él entienda.</p>
+         <div>
+       <p class="re"><center><img src="imagenes/4.jpg" width="310" height="151"></center></p>
+       </div>
+     </center>
+     </div>
+     </div>
+     </div>
+  
+  
+   <div>
+     <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">   
+  <li class="ui-first-child ui-last-child">
+         <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>¿QUÉ ES?</h2>
+         </a> 
+       </li>
+        <li class="ui-first-child ui-last-child">
+         <a href="http://www.unitec.mx/licenciatura-en-diseno-grafico/" target="_self" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>UNITEC</h2>
+         </a> 
+       </li>
+       </ul>
+       </div>  
+     <br>
+     <div>
+    <center>
+      <a href="http://www.itesm.mx/wps/wcm/connect/Campus/CCM/Ciudad+de+Mexico/Programas+educativos/Carreras+profesionales/Diseno+y+Arte+aplicado/"><img src="imagenes/23.jpg" width="206" height="68"></a>
+    </center>
+     </div>
+     <br>
+<div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+      <h3><center>
+        <h3>DONDE ESTUDIAR</h3>
+      </center></h3>
+      <div>
+      <br>
+     </div>
+     <div>
+     <center>
+       <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image38','','imagenes/16.png',1)"><img src="imagenes/18.jpg" width="302" height="181" id="Image38"></a>
+       </p>
+       <p>&nbsp;</p>
+     </center>
+     <p class="re">Existen diferentes tipos de diseños graficos:
+       
+       Diseño de persuasión: Este diseño esta enfocado hacia la publicidad. Consiste en influir en la conducta del publico que observa dicho diseño, utilizado con abitualidad por las empresas comerciales para poder atraer al público.
+       Diseño para la administración : Este estilo de diseño es utilizado para la creaccion de formularios, facturas , billetes ...
+       Diseño para la información : El diseño para la información es el dedicado el hacer revistas, libros, periodicos ... Tambien es muy utilizado dicho diseño para señales de trafico como pueden ser caterles informativos o placas de trafico.
+       Diseño de Educación: El diseño de educación se utiliza en el ambio de la enseñanza, al tener que diseñar todo tipo de libros escolares, fichas didacticas...
+       Diseños de instrumentos de mandos: Es usado en la confeción de todo tipo de mandos que existen como relojes, ordenadores, camaras...</p>
+     <p class="re"><center>
+       <a href="http://www.buap.mx/portal_pprd/wb/EDUCATIVA/diseno_grafico_"><img src="imagenes/25.png" width="185" height="107"></a>
+     </center> </p>
+     </div>
+     </div>
+     </div>          
+
+               
+               
+  <div data-role="main" class="ui-content" align="center">
+ <div style="width:40%">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+    <a href="http://www.improma.com/requisitos-para-estudiar-diseno-grafico/" target="_self" data-role="button" >
+     <h5>MAS</h5>
+    </a>
+    </li>
+    </ul>
+    </div>
+    </div>
+               
+               
+  
+
+
+             <div data-role="footer" data-theme="a" data-position="fixed">
+               <h4 class="AS">GUIA DE CARRERAS</h4>
+               <h4 class="AS"> Daniela Padilla Cuautle</h4>
+             </div>
+             </div>
+             </div>
+             
+             
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+             <h3>HECHO POR</h3>
+  </div>
+            <div data-role="content" align="center">
+             <div>
+             <center>
+               <p>NOMBRE:</p>
+               <p>DANIELA PADILLA CUAUTLE</p>
+               <p>GRADO Y GRUPO: </p>
+               <p>&quot;4° G&quot;</p>
+               <p>ESPECIALIDAD:</p>
+               <p>PROGRAMACIÓN</p>
+               <p>SUBMÓDULO:</p>
+               <p>DESARROLLA APLICACIONES MÓVILES</p>
+               <p>DOCENTE</p>
+               <p>LIC. JOSÉ ANTONIO GOMEZ HERNÁNDEZ</p>
+               </center>
+               <br>
+                  <div>
+     <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">   
+  <li class="ui-first-child ui-last-child">
+         <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>GALERIA</h2>
+         </a> 
+       </li>
+       </ul>
+       </div>
+               
+            </div>
+            
+            <div data-role="footer" data-theme="a" data-position="fixed">
+               <h4 class="AS">GUIA DE CARRERAS</h4>
+               <h4 class="AS"> Daniela Padilla Cuautle</h4>
+               </div>
+               </div>
+               </div>
+               
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+             <h3>¿PARA QUÉ SIRVE?</h3>
+  </div>
+            
+<div data-role="content" align="center">
+             <div><div>
+             
+               <div itemprop="articleBody">
+               <div> 
+                 <p class="we"><center><img src="imagenes/22.jpg" width="251" height="98"></center></p>
+                 </div>
+                 <p class="we">Entendiendo que la Mecatrónica abarca disciplinas muy amplias y complejas podemos decir que tiene muchos campos de aplicación. De hecho, la Mecatrónica pretende ser esa disciplina o Ingeniería en la que los productos se fabriquen teniendo en cuenta todas las ingenierías y no estando separadas como tradicionalmente. Su punto fuerte es la versatilidad para crear mejores productos, procesos o sistemas. La Mecatrónica no es un concepto nuevo o una ingeniera nueva, sino, la síntesis de ciertas áreas de ingeniería. <br>
+                 <br>
+                    Su principal objetivo es cubrir ciertas necesidades como: <br>
+                 <br>
+                 -	Automatizar la maquinaria: así se consigue que sea ágil, productiva y fiable. <br>
+                 <br>
+                 -	Creación de productos inteligentes: que sobre todo responden a las necesidades del ser humano. <br>
+                 <br>
+                 -	Que haya armonía entre componentes mecánicos y electrónicos (hasta ahora la mecánica y la electrónica no manejaban los mismo términos lo que dificultaba los procesos de fabricación o reparación de diferentes equipos).<br>
+                 <br>
+                    Las principales industrias que utilizan la Mecatrónica son: <br>
+                 <br>
+                 - Empresas de la Industria de la Automatización: empresas que utilizan sistemas o elementos computarizados y electromecánicos para controlar maquinarias y/o procesos industriales.<br>
+                 <br>
+                 - Empresas de la Industria de Manufactura Flexible: aquellas que se dedican a fabricar sistemas o componentes eléctricos o electrónicos de forma automática.<br>
+                 <br>
+                    Por tanto, la Mecatrónica puede aplicarse a muchos campos, desde la medicina hasta la minería, pasando por la industria farmacéutica, industria mecánica, automovilística, textil, comunicaciones, alimentación, comercio…y un largo etc.<br>
+                 <br>
+                  La fabricación de productos como Robots, Automóviles, órganos humanos biónicos, naves aeroespaciales, aviones, etc…están basados ya en esta disciplina. </p>
+                <div> <p class="we"><center><img src="imagenes/20.jpg" width="235" height="154"></center></p>
+                </div>
+                 <p class="we">&nbsp;</p>
+               </div>
+                 <div id="ad_bottom_footer"></div>
+                 <p>&nbsp;</p>
+             </div>
+            </div>
+            
+             <div data-role="main" class="ui-content" align="center">
+ <div style="width: 40%; font-size: xx-small;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+    <a href="https://www.uvp.mx/ingenierias/ingenieria-mecatronica" target="_self" data-role="button" >
+     <h5>MAS</h5>
+    </a>
+    </li>
+    </ul>
+    </div>
+    </div>
+    
+   <div> <p>COMPETENCIAS               </p></div>
+    <p>Diseñar, construir e implantar productos y sistemas mecatrónicos para satisfacer necesidades emergentes, bajo el compromiso ético de su impacto económico, social, ambiental y político.
+               Generar soluciones de aplicación de la ingeniería mecatrónica basadas en la creatividad, innovación y mejora continua.
+               Aumentar la competitividad de las empresas a través de la automatización de aquellos procesos que coadyuven al incremento de la productividad, el mejoramiento de la calidad, la reducción de costos y la confiabilidad de los mismos.
+               Planear y realizar experimentos para la solución de problemas considerando su impacto en la sociedad.
+               Comunicar los resultados de sus proyectos o investigaciones eficientemente tanto en forma oral como escrita, en español e inglés. </p>
+             <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+      <h3><center>
+        <h3> MECATRONICA</h3>
+      </center></h3>
+      <div>
+      <br>
+     </div>
+     <div>
+     <center> 
+       <img src="imagenes/21.jpg" width="172" height="152">
+     </center>
+     </div>
+     </div>
+     <p>&nbsp;</p>
+             </div>
+            
+            
+    <div data-role="main" class="ui-content" align="center">
+ <div style="width:40%">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+    <a href="https://www.youtube.com/watch?v=ONlSS6XGzMQ" target="_self" data-role="button" >
+     <h5>MAS</h5>
+    </a>
+    </li>
+    </ul>
+    </div>
+    </div>
+            
+           
+            
+             <div data-role="footer" data-theme="a" data-position="fixed">
+               <h4 class="AS">GUIA DE CARRERAS</h4>
+               <h4 class="AS"> Daniela Padilla Cuautle               </h4>
+             </div>
+        </div></div>
+        
+  
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+             <h3>¿QUÉ ES?</h3>
+  </div>
+            
+<div data-role="content" align="center">
+             <div><div>
+             
+               <div itemprop="articleBody"> 
+                 <p><img src="imagenes/19.jpg" width="238" height="109"></p>
+                 <p class="re"><strong>La ingeniería de sistemas es una carrera universitaria que se encarga del diseño, la programación, la implantación y el mantenimiento de sistemas. A diferencia de otras ramas de la ingeniería, esta disciplina no se ocupa de productos tangibles (los ingenieros civiles, por ejemplo, construyen edificios), sino de productos lógicos.</strong></p>
+                 <div></div>
+                 <p class="re"><strong>Por lo tanto, la ingeniería de sistemas implica el uso de nociones matemáticas que permitan concretar la aplicación tecnológica de las teorías de los sistemas. Se trata de una ciencia interdisciplinaria, que requiere de diversos conocimientos para plasmar sus diseños en la vida práctica.</strong></p>
+                 <p class="re"><strong>La ingeniería de sistemas permite transformar una necesidad operativa en una descripción de los parámetros del rendimiento de un sistema, con su correspondiente configuración. Por otra parte, posibilita la integración de los parámetros técnicos relacionados de modo tal que las interfaces de programa y funcionales sean compatibles y se garantice el funcionamiento del sistema total.</strong></p>
+                 <div>
+                 <p class="we"><center><img src="imagenes/18.jpg" width="248" height="159"></center></p>
+                 </div>
+                 <p class="we">&nbsp;</p>
+               </div>
+                 <div id="ad_bottom_footer"></div>
+                 <p>&nbsp;</p>
+             </div>
+            </div>
+            
+            
+             <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+      <h3><center>
+        <h3> INGENIERIA EN SISTEMAS</h3>
+      </center></h3>
+      <div>
+      <br>
+     </div>
+     <div>
+     <center> 
+       <p><a href="http://www.ipn.mx/educacionsuperior/Paginas/Ing-Sist-Compu.aspx"><img src="imagenes/5.png" width="223" height="149"></a></p>
+       <p>&nbsp;</p>
+     </center>
+     </div>
+     </div>
+     <p>&nbsp;</p>
+             </div>
+            
+            
+    <div data-role="main" class="ui-content" align="center">
+ <div style="width:40%">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+    <a href="http://noticias.universia.net.mx/educacion/noticia/2016/10/03/1144198/6-razones-estudiar-ingenieria-sistemas-computacionales.html" target="_self" data-role="button" >
+     <h5>MAS</h5>
+    </a>
+    </li>
+    </ul>
+    </div>
+    </div>
+            
+           
+            
+             <div data-role="footer" data-theme="a" data-position="fixed">
+               <h4 class="AS">GUIA DE CARRERAS</h4>
+               <h4 class="AS"> Daniela Padilla Cuautle               </h4>
+             </div>
+        </div></div>
+                    
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+             <h3>¿QUÉ ES?</h3>
+  </div>
+            
+<div data-role="content" align="center">
+             <div><div>
+             
+               <div itemprop="articleBody"> 
+               <div>
+                 <p><center><img src="imagenes/14.png" width="182" height="166"></center></p>
+                 </div>
+                 <p class="we">El diseño gráfico es una <strong>especialidad o profesión, cuyo objetivo es satisfacer necesidades de comunicación visual</strong>. Se ocupa de organizar imagen y texto, producidos en general por medios industriales, para comunicar un mensaje específico, a un determinado grupo social y con objetivos claros y definidos.</p>
+                 <p class="we"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image35','','imagenes/13.png',1)"><center><img src="imagenes/9.png" width="198" height="130" id="Image35"></center></a></p>
+               </div>
+                 <div id="ad_bottom_footer"></div>
+                 <p>&nbsp;</p>
+             </div>
+            </div>
+            
+         
+      <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+      <h3><center>
+        <h3>DISEÑO GRAFICO</h3>
+      </center></h3>
+      <div>
+      <br>
+     </div>
+     <div>
+     <center>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image37','','imagenes/15.png',1)"><img src="imagenes/11.png" width="278" height="146" id="Image37"></a>
+     </center>
+     </div>
+     </div>
+     </div>   
+            
+            
+            
+            
+    <div data-role="main" class="ui-content" align="center">
+ <div style="width:40%">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+    <a href="http://enatlixco.com/clasificados/servicios/diseno-grafico" target="_self" data-role="button" >
+     <h5>MAS</h5>
+    </a>
+    </li>
+    </ul>
+    </div>
+    </div>
+            
+           
+            
+             <div data-role="footer" data-theme="a" data-position="fixed">
+               <h4 class="AS">GUIA DE CARRERAS</h4>
+               <h4 class="AS"> Daniela Padilla Cuautle               </h4>
+             </div>
+        </div></div>
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+             <h3>GALERIA  </h3>
+  </div>
+
+             <br>  
+               <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="visor/data2/images/4.jpg" alt="" title="" id="wows2_0"/></li>
+		<li><img src="visor/data2/images/3.jpg" alt="" title="" id="wows2_1"/></li>
+		<li><img src="visor/data2/images/22.jpg" alt="" title="" id="wows2_2"/></li>
+		<li><img src="visor/data2/images/11.png" alt="" title="" id="wows2_3"/></li>
+		<li><img src="visor/data2/images/14.png" alt="" title="" id="wows2_4"/></li>
+		<li><img src="visor/data2/images/20.jpg" alt="" title="" id="wows2_5"/></li>
+		<li><a href="http://wowslider.net"><img src="visor/data2/images/13.png" alt="jquery slider" title="" id="wows2_6"/></a></li>
+		<li><img src="visor/data2/images/21.jpg" alt="" title="" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title=""><span><img src="visor/data2/tooltips/4.jpg" alt=""/>1</span></a>
+		<a href="#" title=""><span><img src="visor/data2/tooltips/3.jpg" alt=""/>2</span></a>
+		<a href="#" title=""><span><img src="visor/data2/tooltips/22.jpg" alt=""/>3</span></a>
+		<a href="#" title=""><span><img src="visor/data2/tooltips/11.png" alt=""/>4</span></a>
+		<a href="#" title=""><span><img src="visor/data2/tooltips/14.png" alt=""/>5</span></a>
+		<a href="#" title=""><span><img src="visor/data2/tooltips/20.jpg" alt=""/>6</span></a>
+		<a href="#" title=""><span><img src="visor/data2/tooltips/13.png" alt=""/>7</span></a>
+		<a href="#" title=""><span><img src="visor/data2/tooltips/21.jpg" alt=""/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">jquery slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+               
+         
+            
+            
+
+
+            
+            <div data-role="footer" data-theme="a" data-position="fixed">
+               <h4 class="AS">GUIA DE CARRERAS</h4>
+               <h4 class="AS"> Daniela Padilla Cuautle</h4>
+               </div>
+               </div>
+               </div>
+                  
+</body>
+</html>
